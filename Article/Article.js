@@ -1,9 +1,11 @@
+
+
 /* This is the data we will be using to create our article components */
 /* Look over this data, then proceed to line 91*/
 const data = [
   {
     title: 'Lambda School Students: "We\'re the best!"',
-    date: 'Nov 5th, 2018',
+    date: "Nov 5th, 2018",
     firstParagraph: `Lucas ipsum dolor sit amet ben twi'lek padmé darth darth darth moff hutt organa twi'lek. Ben amidala secura skywalker lando
         moff wicket tatooine luke.Solo wampa wampa calrissian yoda moff.Darth grievous darth gonk darth hutt.Darth baba skywalker
         watto fett jango maul han.Mon ewok sidious sidious lando kenobi grievous gamorrean solo.Yoda wedge utapau darth calamari.
@@ -23,8 +25,8 @@ const data = [
         moff calamari mon obi-wan. Solo grievous lando coruscant. Jinn darth palpatine obi-wan mon.`
   },
   {
-    title: 'Javascript and You, ES6',
-    date: 'May 7th, 2019',
+    title: "Javascript and You, ES6",
+    date: "May 7th, 2019",
     firstParagraph: `Alohamora wand elf parchment, Wingardium Leviosa hippogriff, house dementors betrayal. Holly, Snape centaur portkey ghost
         Hermione spell bezoar Scabbers. Peruvian-Night-Powder werewolf, Dobby pear-tickle half-moon-glasses, Knight-Bus. Padfoot
         snargaluff seeker: Hagrid broomstick mischief managed. Snitch Fluffy rock-cake, 9 ¾ dress robes I must not tell lies. Mudbloods
@@ -43,8 +45,8 @@ const data = [
         sing above the ground, Ginny Weasley bright red. Fanged frisbees, phoenix tears good clean match.`
   },
   {
-    title: 'React vs Angular vs Vue',
-    date: 'June 7th, 2019',
+    title: "React vs Angular vs Vue",
+    date: "June 7th, 2019",
     firstParagraph: `Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ivysaur Lorem ipsum dolor sit amet, consectetur adipiscing
         elit. Venusaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charmander Lorem ipsum dolor sit amet, consectetur
         adipiscing elit. Charmeleon Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charizard Lorem ipsum dolor sit amet,
@@ -71,8 +73,8 @@ const data = [
         Castform Lotad the power that's inside Burnt Berry Makuhita. Ghost Ariados Corphish Dusclops Golbat Gligar Zweilous.`
   },
   {
-    title: 'Professional Software Development in 2019',
-    date: 'Jan 1st, 2019',
+    title: "Professional Software Development in 2019",
+    date: "Jan 1st, 2019",
     firstParagraph: `Hodor hodor HODOR! Hodor hodor - hodor, hodor. Hodor hodor... Hodor hodor hodor; hodor hodor. Hodor hodor hodor, hodor, hodor
           hodor. Hodor, hodor. Hodor. Hodor, hodor - hodor... Hodor hodor hodor; hodor HODOR hodor, hodor hodor?! Hodor hodor, hodor.
           Hodor hodor hodor hodor hodor! Hodor hodor - HODOR hodor, hodor hodor hodor hodor hodor; hodor hodor? `,
@@ -85,30 +87,200 @@ const data = [
     thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+  },
+  {
+    title: "Song Lyrics",
+    date: "October 3rd, 2019",
+    firstParagraph:
+    `The Light At The End Of The Tunnel Was Bright Enough To Blind Even The Blindest Of Men|
+    I will kill the pain|
+    I will kill the loneliness|
+    I will find a way to fight|
+    I will fight my way through this fire|
+    I will be saved|
+    I will be saved|
+    We all can be saved!|
+    
+    I know you're searching for meaning!
+    In the desolate wasteland of your life!
+    But heed to my words, that you must!
+    Trust in me, that life will not be this way!
+    That there is a life, there is a life waiting!
+    Waiting for you beyond all the misery!
+    
+    I will kill the pain.
+    I will kill the loneliness.
+    I will find a way to fight.
+    I will fight my way through this fire.
+    I will be saved.
+    I will be saved!
+    We all can be saved.
+    We all can be saved!
+    We all will be saved.
+    
+    Don't you go!
+    Don't you go!
+    The light isn't calling your name yet!
+    Don't you go!
+    I need you here!
+    We need you here!
+    Don't you see you aren't alone!
+    There's millions of us just like you!
+    So don't you go!
+    We need to stand!
+    We need to fight!
+    Even when our spirit has been broken!
+    
+    WE CAN FIGHT FIRE WITH FIRE!
+    WE CAN FIGHT FIRE WITH FIRE!
+    DON'T LET THAT FLAME INSIDE YOU BURN OUT!
+    BURN OUT!
+    BURN OUT!
+    DON'T LET THAT FLAME INSIDE YOU BURN OUT!
+    BURN OUT!
+    BURN OUT!
+    
+    I will kill the pain.
+    I will kill the loneliness.
+    I will find a way to fight.
+    I will fight my way through this fire.
+    I will be saved.
+    I will be saved!
+    We all can be saved.
+    We all can be saved!
+    We all will be saved.
+    We all will be saved!`,
+
+    secondParagraph: `Stopped To Rest:
+    The day has begun.
+    The leaves have started to fall.
+    Shadows up against the wall.
+    Are no longer there.
+    Clouds roll in.
+    Time is standing still.
+    There are no longer flowers on the hill.
+    Seasons have changed.
+    Snowflakes sleeping on the earth.
+    White flurries, staring out in a gaze.
+    The days have ran by me.
+    Time is to fast for me to catch.
+    All I hear is their shouts
+    "run run run."
+    Someone shoulda told me this life was no fun.
+    
+    Days spent running around.
+    Trying to make up the lost time.
+    I spent in a dreamland where I was free.
+    No hurries, no worries.
+    No deaths, no regrets.
+    Just time to myself with me myself and I.
+    But look how much just slipped away.
+    Calandars just flipped away.
+    I sat in a daze, a blurry haze.
+    I thought I was young, time to kill.
+    No need to rush!
+    I have my whole life in front of me.
+    Now I realize I'm halfway done.
+    But I haven't yet begun to run.
+    `,
+
+    thirdParagraph: `The Fate:
+    For death shall make beautiful liars of us all.
+    Only the fools and idiots shall believe it will be of any relevance.
+    We will sleep among the first children of Earth.
+    In a perpetual state of ignorant bliss floating along the crowded highway.
+    
+    We seek asylum in these sheltered corridors.
+    Whilst holding the truth, we inevitably think they all seek.
+    See not what lies ahead on this road of abomination.
+    Lest not let the youngest lie their eyes upon.
+    
+    All the wisdom in the world won't save you from a shallow ditch.
+    All the money in the world won't buy you eternity.
+    So think not what lies in the open corridors between thoughtlessness and remorse.
+    Find the hidden treasures among regret and despair for they'll be fair.
+    
+    The conquering of a modern day in plain sight.
+    Revealed to all who spoke so suddenly.
+    In the silence of night, to break ever so peacefully.
+    For finding your path is never out of sight.
+    
+    We look down these empty hallways of pure madness.
+    Into the glistening souls of all of those who wander aimlessly.
+    For no home shall they ever know of again.
+    We shall learn to find comfort in these vague ambiguities.
+    
+    We can seek all the knowledge we could ever acquire.
+    But hope not, for once the world is stripped away and revealed to you.
+    Your faith in humanity will slip out of your grasp.
+    As if you were trying to hold onto raindrops.
+    
+    Watch as the world you knew falls apart around you.
+    Knowledge is power, yet sometimes can make us feel powerless.
+    Give up all your insecurities, give up all your indecisiveness.
+    Today is today, so make it today and don't let it rain.`
   }
 ];
 
-/* Step 1: Create a function that creates a component. You will want your component to look like the template below: 
+// Create paragraph
+
+const createParagraph = p => {
+  const paragraph = document.createElement('p');
+  paragraph.textContent = p;
+  return paragraph;
+};
+
+// Article creation, create elements, then assign data, then + classes, listeners, attach el's & return
+
+const createArt = (title, date, p1, p2, p3) => {
+  const article = document.createElement('div');
+  const articleTitle = document.createElement('h2');
+  const articleDate = document.createElement('p');
+  const expandButton = document.createElement('span');
+//
+  articleTitle.textContent = title;
+  articleDate.textContent = date;
+  const paragraph1 = createParagraph(p1);
+  const paragraph2 = createParagraph(p2);
+  const paragraph3 = createParagraph(p3);
+  expandButton.textContent = 'Read this article!';
+//
+  article.classList.add('article');
+  articleDate.classList.add('date');
+  expandButton.classList.add('expandButton');
+//
+  expandButton.addEventListener('click', el => {
+    article.classList.toggle('article-open');
   
-  <div class="article">
-    <h2>{title of the article}</h2>
-    <p class="date">{date of the article}</p>
+    if(article.classList.contains('article-open')) {
+    expandButton.textContent = 'Remove article';
+    } else {
+    el.target.parentElement.parentElement.removeChild(el.target.parentElement);
+    }
+  });
+//
+  article.appendChild(articleTitle);
+  article.appendChild(articleDate);
+  article.appendChild(paragraph1);
+  article.appendChild(paragraph2);
+  article.appendChild(paragraph3);
+  article.appendChild(expandButton);
+//
+  return article;
+};
 
-    {three separate paragraph elements}
+const articlesCon = document.querySelector('.articles');
 
-    <span class='expandButton'></span>
-  </div>
+data.forEach(art => {
+  articlesCon.appendChild(
+    createArt(
+      art.title,
+      art.date,
+      art.firstParagraph,
+      art.secondParagraph,
+      art.thirdParagraph
+    )
+  );
+});
 
-  Hint: You will need to use createElement more than once here!
 
-  Your function should take either an object as it's one argument, or 5 separate arguments mapping to each piece of the data object above.
-
-  Step 2: Add an event listener to the expandButton span. This event listener should toggle the class 'article-open' on the 'article' div.
-
-  Step 3: return the entire component.
-
-  Step 4: Map over the data, creating a component for each oject and add each component to the DOM as children of the 'articles' div.
-
-  Step 5: Add a new article to the array. Make sure it is in the same format as the others. Refresh the page to see the new article.
-
-*/
